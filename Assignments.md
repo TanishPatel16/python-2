@@ -14,7 +14,7 @@ people_list = [
 
 Create a function called `sort_people()` that accepts the following arguments:
 - A list of people
-- A field that will used to sort the people (e.g. name, age, weight, etc...)
+- A field that will be used to sort the people (e.g. name, age, weight, etc...)
 - The sort direction (e.g. asc or desc)
 
 This function must use a Lambda function to perform the sort.
@@ -268,7 +268,7 @@ class Character:
         random_number = random.randint(1, 20)
         character.hit_points -= random_number
 ```
-This base class represents a medieval character (not a character on your computer keyboard).  Create `Fighter` and `Drawf` 
+This base class represents a medieval character (not a character on your computer keyboard).  Create `Fighter` and `Dwarf` 
 classes that subclass the `Character` class.  Implement the `__repr__()` method in the `Fighter` and `Drawf` classes.  Add some 
 logic in the `Character` base class `fight()` method to make sure the hit points do not fall below zero when the `fight()` method 
 has finished executing.
